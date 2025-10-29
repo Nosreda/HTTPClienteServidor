@@ -1,0 +1,28 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -g
+
+LDFLAGS_CLIENTE = 
+LDFLAGS_SERVIDOR = 
+
+
+CLIENTE_TARGET = cliente
+SERVIDOR_TARGET = servidor
+
+CLIENTE_SRC = cliente.c
+SERVIDOR_SRC = servidor.c
+
+
+all: $(CLIENTE_TARGET) $(SERVIDOR_TARGET)
+
+
+$(CLIENTE_TARGET): $(CLIENTE_SRC) func.h
+	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS_CLIENTE)
+
+
+$(SERVIDOR_TARGET): $(SERVIDOR_SRC) func.h
+	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS_SERVIDOR)
+
+clean:
+	rm -f $(CLIENTE_TARGET) $(SERVIDOR_TARGET)
+
+.PHONY: all clean
