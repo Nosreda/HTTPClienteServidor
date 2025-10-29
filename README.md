@@ -25,4 +25,4 @@ Execute o servidor informando o diretório a ser servido: ./servidor <diretorio>
 Compile o cliente:  make
 
 
-Execute o cliente informando a URL do arquivo desejado: ./cliente http://[host][:porta]/[caminho]
+Execute o cliente informando a URL desejada: ./cliente http://[host][:porta]/[caminho]
