@@ -1,7 +1,6 @@
 # HTTPClienteServidor
 
 🧩 Objetivo
-<pre></pre>
 
 O projeto HTTPClienteServidor tem como finalidade implementar:
 
@@ -12,7 +11,6 @@ O projeto HTTPClienteServidor tem como finalidade implementar:
 <pre></pre>
 
 🚀 Compilação e Execução
-<pre></pre>
 
 🖥️ Servidor HTTP
 
