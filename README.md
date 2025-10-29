@@ -16,7 +16,7 @@ O projeto HTTPClienteServidor tem como finalidade implementar:
 
 Compile o servidor:  make
 
-Execute o servidor informando o diretório a ser servido: ./servidor <diretorio>
+Execute o servidor informando o diretório a ser servido: ./servidor "<diretorio>"
 
 <pre></pre>
 
