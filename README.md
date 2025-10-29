@@ -8,9 +8,7 @@ O projeto HTTPClienteServidor tem como finalidade implementar:
 
 📡 Um Cliente HTTP, que acessa o servidor através de uma URL e realiza o download do arquivo solicitado.
 
-
-
-
+<pre></pre>
 
 🚀 Compilação e Execução
 
