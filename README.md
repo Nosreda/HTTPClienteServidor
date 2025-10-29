@@ -12,7 +12,7 @@ O projeto HTTPClienteServidor tem como finalidade implementar:
 
 🚀 Compilação e Execução
 
-🖥️ Servidor HTTP
+Servidor HTTP:
 
 Compile o servidor: ```make```
 
@@ -20,9 +20,13 @@ Execute o servidor informando o diretório a ser servido: ```./servidor "diretó
 
 <pre></pre>
 
-👩‍💻 Cliente HTTP
+Cliente HTTP:
 
 Compile o cliente: ```make```
 
 
 Execute o cliente informando a URL desejada: ```./cliente http://[host][:porta]/[caminho]```
+
+<pre></pre>
+
+Para remover os arquivos gerados no make: ```make clean```
